@@ -1,8 +1,8 @@
 # Categorical Drift Audit Lab installation verification
 
-One offline installation completed and passed independent artifact, output, custody and resource review. [results/installation.json](results/installation.json) is the exact reviewed sanitized facts file and the authoritative installation record. No installation, evaluation, genuine receipt export, test or demo was repeated to prepare this documentation.
+One offline installation completed and passed independent artifact, output, custody and resource review. [results/installation.json](results/installation.json) is the exact reviewed sanitized facts file and the authoritative installation record. No installation, evaluation, genuine receipt export, test or demo was repeated to prepare the original installation record.
 
-This later record supplies the installation status after the earlier evaluation/export snapshot in [RESULTS.md](RESULTS.md), which is preserved unchanged. Publication and independent remote verification remain pending.
+This later record supplies the installation status after the earlier evaluation/export snapshot in [RESULTS.md](RESULTS.md), which is preserved unchanged. See [README.md](README.md#current-validation-status) for the later public repository status; public availability does not extend the installation evidence recorded here.
 
 ## Verified route and scope
 
@@ -45,4 +45,4 @@ All twelve direct child steps were reaped and all observed owned groups closed. 
 
 Independent review reconciled saved files and actual outputs without repeating the installation. Saved tool captures are retained records and are not independent platform attestations. Effective approval policy, client overrides, full automated approval review and billing remain unverified. The installed tests and hand-sized entry checks establish their recorded scope; they do not prove testing of other versions, operating systems or direct shebang execution.
 
-No dependency download, paid CI/API use, credential or security/configuration change, new license grant or hosted workflow was part of this installation. Original source and sanitized results are the public candidate; raw receipts and private orchestration evidence remain private.
+No dependency download, paid CI/API use, credential or security/configuration change, new license grant or hosted workflow was part of this installation. Original source and sanitized results are published in the public repository; raw receipts and private orchestration evidence remain private.

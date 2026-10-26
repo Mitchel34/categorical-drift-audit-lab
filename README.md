@@ -6,7 +6,9 @@ This is empirical arithmetic. Scores do not establish statistical significance, 
 
 ## Current validation status
 
-All 45 ordinary tests passed with no failures, errors or skips. Both static demo command paths passed and produced identical JSON bytes. One production evaluation passed all ten checks across six fixed cases, retaining 26 numeric metrics. The accepted receipt-only export preserves all 26 metrics and ten checks in [results/evaluation.json](results/evaluation.json); [RESULTS.md](RESULTS.md) records their scope and operational measurements. One clean offline installation passed all 45 installed tests and both small installed entry checks on Python 3.14.7 through reviewed runpy wrappers. [INSTALLATION.md](INSTALLATION.md) and [results/installation.json](results/installation.json) record the later installation evidence and its limits; RESULTS.md retains the earlier evaluation/export snapshot. Publication remains pending. Examples and hand oracles below describe the frozen contract. See [PROTOCOL.md](PROTOCOL.md) for the exact schemas, formulas and acceptance checks.
+All 45 ordinary tests passed with no failures, errors or skips. Both static demo command paths passed and produced identical JSON bytes. One production evaluation passed all ten checks across six fixed cases, retaining 26 numeric metrics. The accepted receipt-only export preserves all 26 metrics and ten checks in [results/evaluation.json](results/evaluation.json); [RESULTS.md](RESULTS.md) records their scope and operational measurements. One clean offline installation passed all 45 installed tests and both small installed entry checks on Python 3.14.7 through reviewed runpy wrappers. [INSTALLATION.md](INSTALLATION.md) and [results/installation.json](results/installation.json) record the later installation evidence and its limits; RESULTS.md retains the earlier evaluation/export snapshot. Examples and hand oracles below describe the frozen contract. See [PROTOCOL.md](PROTOCOL.md) for the exact schemas, formulas and acceptance checks.
+
+The source and sanitized results were published to this public GitHub repository on October 18, 2026, in [commit 4c33766](https://github.com/Mitchel34/categorical-drift-audit-lab/commit/4c33766172ee035caf56b8c6a7e957170096502a). Public availability adds no evaluation or installation evidence.
 
 ## Library use
 
@@ -43,7 +45,7 @@ The CLI accepts exactly one UTF-8 JSON object with exactly `reference` and `curr
 
 ## Command line and the static demo
 
-After installation, use either `python -m categorical_drift_audit_lab` or the `categorical-drift-audit` console command. With no arguments the command reads stdin through EOF:
+After installation, use either `python -m categorical_drift_audit_lab` or the `categorical-drift-audit` console command. With no arguments the command reads stdin through EOF. From the repository root, use the example file (excluded from the wheel):
 
 ```sh
 python -m categorical_drift_audit_lab < examples/demo.json
